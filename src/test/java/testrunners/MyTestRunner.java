@@ -13,8 +13,8 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun=false,
 		monochrome=true,
 		plugin= {"pretty",
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-				"timeline:test-output-thread/"}
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+				}
 		)
 public class MyTestRunner {
 
